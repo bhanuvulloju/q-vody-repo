@@ -1,0 +1,9 @@
+steps:
+  - name: ubuntu
+    args:
+      - echo
+      - |
+        trigger name  $TRIGGER_NAME 
+      - |
+        image tag $_IMAGE_TAG 
+      - message $_MSG
